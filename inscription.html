@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIShop - Page d'inscription</title>
+    <!-- liaison fichier bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Début section menu de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">GODINGLIFETIME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                BOUTIQUE
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                                <li><a class="dropdown-item" href="elctronique.html">Electronique</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="connexion.html">CONNEXION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="inscription.html">INSCRIPTION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="apropos.html">A PROPOS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Recherche">
+                        <button class="btn btn-outline-danger" type="submit">chercher</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- fin section menu de navigation -->
+        <!-- Début section formulaire d'inscription -->
+        <div class="my-4 mx-auto p-3" style="background: rgba(216, 211, 208); width: 750px;">
+            <form action="">
+                <h2 class="text-center" style="color: rgba(171, 142, 124);">Formulaire D'inscription</h2>
+                <div class="row mt-5 mb-3">
+                    <div class="col">
+                        <input class="form-control p-3" style="border: 3px solid #a3a26c;" type="text" placeholder="Prénom">
+                    </div>
+                    <div class="col">
+                        <input class="form-control p-3" style="border: 3px solid #a3a26c;" type="text" placeholder="nom">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <input class="form-control" style="border: 3px solid #a3a26c;" type="number" placeholder="Age" min="18" max="120">
+                    </div>
+                    <div class="col">
+                        <input class="form-control" style="border: 3px solid #a3a26c;" type="email" placeholder="name@exemple.com">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <input class="form-control" style="border: 3px solid #a3a26c;" type="text" placeholder="Commune">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" style="border: 3px solid #a3a26c;" type="text" placeholder="Quartier">
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <input class="form-control" style="border: 3px solid #a3a26c;" type="text" placeholder="Ville">
+                    </div>
+                    <div class="col">
+                        <select class="form-select p-3" style="border: 3px solid #A3A26c">
+                            <option>Selection une Region</option>
+                            <option>Conakry</option>
+                            <option>Kindia</option>
+                            <option>Mamou</option>
+                            <option>Boke</option>
+                            <option>Lqbe</option>
+                            <option>Kankan</option>
+                            <option>Faranah</option>
+                            <option>N'Zerekore</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <input class="form-control" style="border: 3px solid #a3a26c;" type="text" placeholder="Telephone Fixe">
+                    </div>
+                    <div class="col mb-3">
+                        <input class="form-control" style="border: 3px solid #a3a26c;" type="text" placeholder="Telephone Mobile">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <input class="form-control" style="border: 3px solid #a3a26c;" type="password" placeholder="Mot de paase">
+                    </div>
+                    <div class="col mb-3">
+                        <input class="form-control" style="border: 3px solid #a3a26c;" type="password" placeholder="Confirmer votre Mot de paase">
+                    </div>
+                </div>
+                <div class="mb-1 mt-4">
+                    <button class="btn btn-primary fs-4">S'inscrire</button>
+                </div>
+            </form>
+        </div>
+        <!-- Fin section formulaire d'inscription -->
+    </div>
+</body>
+</html>

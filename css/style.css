@@ -1,0 +1,160 @@
+/* Initialisation de la page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* Design du contenu de la page */
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .sidebar{
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(5, 68, 104);
+    position: fixed;
+    padding: 20px 0px;
+
+}
+#profil img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 10px solid rgb(32, 44, 69);
+}
+#profil{
+    margin-bottom: 30px;
+    text-align: center;
+}
+#profil h3{
+    font-size: 20px;
+    color: #fff;
+    margin: 5px 0;
+}
+#profil p{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(175, 220, 250);
+}
+/* design de la liste des elements */
+.sidebar ul li a{
+    color: rgb(241, 237, 237);
+    display: block;
+    padding: 10px 30px;
+    border-bottom: 2px solid #10558D;
+    font-size: 18px;
+}
+.sidebar ul li a:hover, .active{
+    background-color: #fff;
+    color: rgb(85, 160 , 230);
+    border-right: 1.5px solid #105585;
+}
+.active{
+    color: rgb(85, 160, 230) !important;
+}
+/*design de la section du bloc */
+section{
+    width: calc(100%-250px);
+    margin-left: 250px;
+}
+.header{
+    background-color: rgb(2, 3, 55);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h2 a{
+    color: #fff;
+    font-size: 1.5em;
+}
+/* design de la banniere */
+.banner{
+    height: 220px;
+    background-color: rgb(4, 4, 90);
+    padding: 50px;
+}
+.titre h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+}
+.trait{
+    background-color: rgb(235, 235, 165);
+    padding: 5px;
+    width: 60%;
+    margin: 20px auto;
+}
+.btn {
+    text-align: center;
+}
+.btn button{
+    padding: 10px;
+    font-size: 1.5em;
+}
+/* Design des articles */
+.article{
+    display: flex;
+    padding: 20px;
+}
+.img-article img{
+    width: 220px;
+}
+.titre-article{
+    padding: 20px;
+    padding-left: 50px;
+    line-height: 1.3;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titre-arcticle h3{
+    font-size: 1.5em;
+}
+/* Design du pied de page */
+.footer{
+    background-color: #010312;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.cv{
+   display: flex;
+   padding: 20px;
+   margin-top: 20px;
+   line-height: 1.5;
+   margin-left: 80px;
+   justify-content: space-between;
+}
+.img-cv img{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.titre-cv h1{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.civil{
+    background-color: #105585;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #010312;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.titre-cv p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}

@@ -1,0 +1,78 @@
+/* Initialisation de la page  */
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 13, 88);
+    /* background: linear-gradient(rgb(79,42,96), rgb(13,2,80), rgb(1,0,78), rgb(60,0,74)); */
+    height: 100vh;
+    width: 100%;
+}
+/* Design du formulaire */
+form{
+    width: 30%;
+    max-width: 450px;
+    background-color:rgb(149, 143, 171);
+    /* background: linear-gradient(110deg,rgb(164,150,173)50%, rgb(154, 136, 165)50%); */
+    padding: 15px;
+    border: 2px solid rgb(218, 185, 230);
+    border-radius: 20px;
+}
+.image img{
+    width: 250px;
+    align-items: center;
+    border-radius: 80%;
+    display: block;
+    margin: auto;
+     /* display: flex;
+    margin-left: auto;
+    margin-right: auto; */
+    
+    
+}
+.username{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(226, 223, 234);
+    color: rgb(90, 69, 108);
+    font-size: 1.6em;
+    border: 1px solid rgb(90, 69, 108);
+    border-radius: 5px;
+}
+.ens, a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px 0;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rappeler input{
+    width: 20px;
+    height: 15px;
+}
+.btn button{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(5 , 0, 85);
+    color: #fff;
+    font-size: 1.6em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+    

@@ -1,0 +1,17 @@
+{
+    "commentTranslate.targetLanguage": "fr",
+    "cSpell.language": "fr-FR,fr",
+    "cSpell.enableFiletypes": [
+        "vb"
+    ],
+    "commentTranslate.hover.enabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
